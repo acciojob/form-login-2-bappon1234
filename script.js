@@ -8,5 +8,5 @@ form.addEventListener("submit", function (e){
 	const phoneNumber = document.querySelector('input[name="Phone Number"]').value;
 	const emailId = document.querySelector('input[name="Email ID"]').value;
 
-	alert(`First Name: ${firstName} Last Name: ${lastName} Phone Number: ${[phoneNumber] Email ID: ${emailId}}`);
+	alert(`First Name: ${firstName} Last Name: ${lastName} Phone Number: ${phoneNumber} Email ID: ${emailId}}`);
 });
